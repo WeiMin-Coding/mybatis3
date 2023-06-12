@@ -16,6 +16,7 @@ public class MybatisTest {
         SqlSession sqlSession = build.openSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         int res = mapper.insertUser();
+        sqlSession.commit();
         System.out.println("Inert: " + res);
     }
 }
