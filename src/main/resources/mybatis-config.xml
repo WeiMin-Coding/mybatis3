@@ -9,7 +9,7 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://192.168.10.13:3306/db01?serverTimezone=UTC"/>
+                <property name="url" value="jdbc:mysql://10.8.99.2:3306/zxin?serverTimezone=UTC&amp;useSSL=false"/>
                 <property name="username" value="root"/>
                 <property name="password" value="WeiMin@123"/>
             </dataSource>

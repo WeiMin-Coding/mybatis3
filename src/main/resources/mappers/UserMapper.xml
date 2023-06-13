@@ -4,6 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.example.mappers.UserMapper">
     <insert id="insertUser">
-        insert into actor(id,name,sex,borndate,phone) values(null,'weimin@123','m','1996-09-01','1777777')
+        insert into actor(id,name,sex,borndate,phone) values(null,'weimin@123','m','1555-02-01','1777777')
+    </insert>
+    <insert id="testInnoDB">
+        insert into actor(id,name,sex,borndate,phone) values(null,'weimin@123','m','1555-02-01','1777777')
     </insert>
 </mapper>
